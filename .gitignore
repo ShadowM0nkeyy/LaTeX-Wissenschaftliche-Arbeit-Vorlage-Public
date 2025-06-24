@@ -26,9 +26,7 @@
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
-*.bbl-SAVE-ERROR
 *.bcf
-*.bcf-SAVE-ERROR
 *.blg
 *-blx.aux
 *-blx.bib
@@ -41,8 +39,6 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
-*.rubbercache
-rubber.cache
 
 ## Build tool directories for auxiliary files
 # latexrun
@@ -59,9 +55,6 @@ acs-*.bib
 # amsthm
 *.thm
 
-# attachfile2
-*.atfi
-
 # beamer
 *.nav
 *.pre
@@ -70,7 +63,6 @@ acs-*.bib
 
 # changes
 *.soc
-*.loc
 
 # comment
 *.cut
@@ -119,23 +111,15 @@ acs-*.bib
 *.glsdefs
 *.lzo
 *.lzs
-*.slg
-*.slo
-*.sls
 
 # uncomment this for glossaries-extra (will ignore makeindex's style files!)
 # *.ist
-
-# gnuplot
-*.gnuplot
-*.table
 
 # gnuplottex
 *-gnuplottex-*
 
 # gregoriotex
 *.gaux
-*.glog
 *.gtex
 
 # htlatex
@@ -146,16 +130,13 @@ acs-*.bib
 *.trc
 *.xref
 
-# hypdoc
-*.hd
-
 # hyperref
 *.brf
 
 # knitr
 *-concordance.tex
-# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
-# *.tikz
+# TODO Comment the next line if you want to keep your tikz graphics files
+*.tikz
 *-tikzDictionary
 
 # listings
@@ -180,14 +161,10 @@ acs-*.bib
 
 # minted
 _minted*
-*.data.minted
 *.pyg
 
 # morewrites
 *.mw
-
-# newpax
-*.newpax
 
 # nomencl
 *.nlg
@@ -207,13 +184,6 @@ _minted*
 
 # scrwfile
 *.wrt
-
-# spelling
-*.spell.bad
-*.spell.txt
-
-# svg
-svg-inkscape/
 
 # sympy
 *.sout
@@ -238,9 +208,6 @@ pythontex-files-*/
 *.dpth
 *.md5
 *.auxlock
-
-# titletoc
-*.ptc
 
 # todonotes
 *.tdo
@@ -277,9 +244,6 @@ TSWLatexianTemp*
 *.bak
 *.sav
 
-# latexindent.pl
-*.bak[0-9]*
-
 # Texpad
 .texpadtmp
 
@@ -311,10 +275,8 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 
-# xwatermark package
-*.xwm
+#lokale Historie
+.history/
 
-# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
-# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
-# Uncomment the next line to have this generated file ignored.
-#*Notes.bib
+#draw.io - Lokales Backup nicht hinzufügen
+*.bkp 
