@@ -1,0 +1,4 @@
+% Dienen als Vorlage für die Dateinamen der Abgaben
+
+Pruefung_Kategorie_Nachname_Vorname_Matrikelnummer_final_full
+Pruefung_Kategorie_Nachname_Vorname_Matrikelnummer_final_print

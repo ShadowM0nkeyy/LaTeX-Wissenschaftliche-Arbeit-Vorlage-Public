@@ -1,0 +1,38 @@
+\newcommand{\addAbbildungQuelle}[5] % Parameter: scale, caption, label, file, Quelle
+{
+
+    \begin{minipage}{0.9\textwidth}
+        \centering
+
+        \includegraphics[scale=#1]{02_Datein/02_Abbildungen/#4}
+
+        \captionof{figure}[#2]{#2; Quelle: #5}
+        \label{#3}
+
+    \end{minipage}
+
+}
+
+\newcommand{\addTabelleScaleTextQuelle}[5] % Parameter: scale (z.B. \columnwidth), caption, label, file, Quelle
+{
+    \begin{table}[H]
+    \centering
+    \captionof{table}[#2]{#2; Quelle: #5}
+    \label{#3}
+    \begin{#1}
+    \input{02_Datein/03_Tabellen/#4}
+    \end{#1}
+
+    \end{table}
+}
+
+% Weiteres
+
+\newcommand{\Vgl}{Vgl.\xspace}
+
+\newcommand{\Anfuehrungsstriche}[1] %inhalt
+{\glqq #1\grqq\xspace}
+
+\newcommand{\ZumBeispiel}{z.B.\xspace}
+
+\newcommand{\Gendern}[2]{#1:#2\xspace}

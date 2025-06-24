@@ -1,0 +1,99 @@
+%Für Sonderzeichen und Umlaute
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%Schrift ändern
+\usepackage[scaled]{uarial} %Klon von Arial - mit Serifen
+
+\renewcommand\familydefault{\sfdefault} %Default-Schrift auf "ohne Serifen" umstellen
+
+% Schriftgröße zulassen
+\usepackage{anyfontsize}
+
+% Dokument auf Deutsch umstellen
+\usepackage{babel}
+
+% Tabellen
+\PassOptionsToPackage{table}{xcolor}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{float} %Damit kann man den Parameter "H" bei der table Umgebung verwenden und die Tabelle bleibt an der Stelle.
+
+% Tabellen Linien formatieren
+\usepackage{tabularx}
+\usepackage{bigstrut}
+
+% Einfache Definition der Zeilenabstände und Seitenränder etc.
+\usepackage{setspace}
+\usepackage{geometry}
+%\usepackage[showframe]{geometry} %Zeigt einen Rahmen um den Text. Für Überlappungen.
+
+% Einstellungen für PDF-Dateien
+\usepackage{pdfpages}
+\usepackage[
+    bookmarks,
+    bookmarksnumbered,
+    bookmarksopen=true,
+    bookmarksopenlevel=1,
+    colorlinks=true,
+    % di%ese Farbdefinitionen zeichnen Links im PDF farblich aus
+    anchorcolor=MainColor,% Ankertext
+    citecolor=MainColor, % Verweise auf Literaturverzeichniseinträge im Text
+    filecolor=MainColor, % Verknüpfungen, die lokale Dateien öffnen
+    menucolor=MainColor, % Acrobat-Menüpunkte
+    urlcolor=MainColor,
+    linkcolor=MainColor,
+    %%
+    pdftex,
+    plainpages=false, % zur korrekten Erstellung der Bookmarks
+    pdfpagelabels=true, % zur korrekten Erstellung der Bookmarks
+    hypertexnames=false, % zur korrekten Erstellung der Bookmarks
+    linktoc=page,
+]{hyperref}
+\hypersetup{
+    pdftitle={\projektKurztitel -- \projektLangtitel},
+    pdfauthor={\autorFullNameOne},
+    pdfcreator={\autorFullNameOne},
+    pdfsubject={\projektKurztitel -- \projektLangtitel},
+    pdfkeywords={\projektKurztitel -- \projektLangtitel},
+}
+
+% Einbinden von Bilder (.jpg || .png) ermöglichen
+\usepackage{graphicx}
+
+\usepackage[automake, acronym, toc, nonumberlist, nopostdot, nogroupskip, style=super]{glossaries}
+\makeglossaries
+
+%Fußzeile und Kopfzeile 
+\usepackage{chngcntr} % fortlaufendes Durchnummerieren der Fußnoten
+
+%Literaturverzeichnis
+\usepackage[babel,german=quotes]{csquotes} %Empfohlen
+\usepackage[backend=biber,
+    style=authoryear,isbn=false
+]{biblatex}
+
+%Löscht den Inhalt des Feldes 'note'
+\AtEveryBibitem{%
+    \clearfield{note}%
+}
+
+%URL-Umbrüche anpassen
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+
+\addbibresource{04_Literaturverzeichnis/Literaturverzeichnis.bib}
+
+% Für die Darstellung eines Euro-Zeichens.
+\usepackage{eurosym}
+
+% Für das Titelblatt 
+\usepackage[pages=some]{background}
+
+%Einbinden von einer PDF-Datei
+\usepackage{pdfpages}
+
+%Sonstiges
+\usepackage{xspace} % sorgt dafür, dass Leerzeichen hinter parameterlosen Makros nicht als Makroendezeichen interpretiert werden
+
+\usepackage[normalem]{ulem} % unterstreichen [\uline], durchstreichen [\sout] etc.

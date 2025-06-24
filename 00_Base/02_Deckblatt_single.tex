@@ -1,0 +1,65 @@
+\begin{titlepage}
+
+
+    %%Titelseite konfigurieren
+    \backgroundsetup{
+        scale=1,
+        color=black,
+        opacity=1,
+        angle=0,
+        contents={%
+                \includegraphics[width=\paperwidth,height=\paperheight]{02_Datein/01_Bilder/00_Base/background_hsHarz.png}
+            }%
+    }
+
+    %Titelseite anzeigen
+    \BgThispage
+
+    \vspace*{16ex} %Mit Exposé-Überschrift 16, sonst 20
+    \begin{center}
+        \huge{\textbf{\kategorie}}\\
+        \vspace*{6ex}
+
+        \huge{\textbf{\projektKurztitel}}\\
+        \huge{\projektLangtitel}\\
+        \vspace*{6ex}
+
+        \LARGE
+        {
+            angefertigt an der Hochschule Harz \\ Fachbereich Verwaltungswissenschaften
+            \\~\\
+            Studiengang: \studiengang
+        }
+
+    \end{center}
+
+    \vfill
+
+    %Abstand der Tabelleneinträge 
+    \renewcommand{\arraystretch}{1.0}
+    \begin{table}[h]
+        %Schriftgröße anpassen
+        \begin{large}
+            %Spaltenbreite anpassen, damit das centering passt
+            \begin{tabular}{p{0.5\textwidth}p{0.44\textwidth}}
+                \textbf{vorgelegt von:}               & \textbf{angefertigt bei:} \\
+                                                      &                           \\
+                \autorFullNameOne                     & Erstbetreuer              \\
+                \autorAnschriftOne                    & \ansprechpartnerOne       \\
+                \autorOrtOne                          &                           \\
+                %\autorHandyPrivatOne & \\
+                %\autorMailPrivatOne & \\
+                                                      &                           \\
+                Semester: \autorSemesterNummerOne     & Zweitbetreuer             \\
+                Matrikel-Nr.: \autorMatrikelnummerOne & \ansprechpartnerTwo       \\
+                E-Mail: \autorMailWorkOne             &                           \\
+                                                      &                           \\
+                                                      &                           \\
+                \textbf{Eingereicht am:} \eingereichtAmDatum
+            \end{tabular}
+        \end{large}
+    \end{table}
+
+
+
+\end{titlepage}

@@ -1,0 +1,47 @@
+<mxfile host="65bd71144e">
+    <diagram name="Seite-1" id="d5Ep44oiCVxuj6045FP8">
+        <mxGraphModel dx="2588" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-31" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;startArrow=none;endArrow=none;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="uK5rXnX56fyj7J-lp8ed-7" target="uK5rXnX56fyj7J-lp8ed-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-7" value="Zentrale&#xa;Bundesagentur &#xa;für Arbeit " style="align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-30" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;startArrow=none;endArrow=none;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="uK5rXnX56fyj7J-lp8ed-15" target="uK5rXnX56fyj7J-lp8ed-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-15" value="Verwaltungsrat" style="align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-32" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;startArrow=none;endArrow=none;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uK5rXnX56fyj7J-lp8ed-16" target="uK5rXnX56fyj7J-lp8ed-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="heYv6zMeAWSN6Z6gCW13-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uK5rXnX56fyj7J-lp8ed-16" target="uK5rXnX56fyj7J-lp8ed-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-16" value="Vorstand" style="align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-17" value="..." style="align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-18" value="..." style="align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+                    <mxGeometry x="-940" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="heYv6zMeAWSN6Z6gCW13-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uK5rXnX56fyj7J-lp8ed-19" target="uK5rXnX56fyj7J-lp8ed-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-610" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uK5rXnX56fyj7J-lp8ed-19" value="..." style="align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="1" vertex="1">
+                    <mxGeometry x="-540" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

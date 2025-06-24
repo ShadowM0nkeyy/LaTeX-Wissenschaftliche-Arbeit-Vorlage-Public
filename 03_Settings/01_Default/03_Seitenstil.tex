@@ -1,0 +1,59 @@
+%Seitenränder
+\setlength{\topskip}{\ht\strutbox} % behebt Warnung von geometry
+\geometry{a4paper,left=25mm,right=20mm,top=25mm,bottom=35mm}
+
+\usepackage[
+	automark, % Kapitelangaben in Kopfzeile automatisch erstellen
+	headsepline, % Trennlinie unter Kopfzeile
+	ilines % Trennlinie linksbündig ausrichten
+]{scrlayer-scrpage}
+
+
+% Kopfzeile 	---------------------------------------------------------------------
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+
+%Linker Teil der Kopfzeile
+\renewcommand{\headfont}{\normalfont} % Schrift der Kopfzeile
+\ihead{\large{\projektKurztitel}\\
+	\begin{minipage}{0.93\textwidth}
+		\small{\projektLangtitel} \\
+	\end{minipage} \\
+	\headmark}
+
+%Rechter Teil der Kopfzeile
+\chead{}
+\ohead{\includegraphics[scale=0.12]{\betriebHSHarzShort}}
+\setlength{\headheight}{16.2mm} % Höhe der Kopfzeile
+
+% Fußzeile----------------------------------------------------------------------
+\ifoot{\autorFullNameOne}
+\cfoot{}
+\ofoot{\pagemark}
+
+% Schusterjungen und Hurenkinder vermeiden
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+% Vermeidet das Fußnoten aufgeteilt werden!
+\interfootnotelinepenalty=10000
+
+
+% Abstand zwischen Nummerierung und Überschrift definieren
+\newcommand{\colTableLightBlueSpace}{1.5cm}
+
+% Abschnittsüberschriften im selben Stil wie beim Inhaltsverzeichnis einrücken
+\renewcommand*{\othersectionlevelsformat}[3]{
+	\makebox[\colTableLightBlueSpace][l]{#3\autodot}
+}
+
+%Einrückung des Inhaltsverzeichnisses
+\RedeclareSectionCommand[tocindent=0em,tocnumwidth=1em]{section}
+\RedeclareSectionCommand[tocindent=1em,tocnumwidth=2em]{subsection}
+\RedeclareSectionCommand[tocindent=3em,tocnumwidth=3em]{subsubsection}
+
+
+%Aufzählungszeichen definieren
+\renewcommand{\labelitemi}{\small$\blacktriangleright$}
+\renewcommand{\labelitemii}{\small$\blacktriangleright$}
