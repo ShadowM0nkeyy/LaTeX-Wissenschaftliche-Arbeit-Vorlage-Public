@@ -19,6 +19,26 @@ Integration von `.bib`-Dateien via BibTeX
 - 📝 **Eidesstattliche Erklärung**
 - 📎 **Anhang**
 
+
+## 📦 Setup & Voraussetzungen
+
+Um diese Vorlage lokal nutzen und kompilieren zu können, wird folgende Umgebung empfohlen:
+
+- **Visual Studio Code**
+  - Erweiterung: `LaTeX Workshop`
+- **MiKTeX**  
+Lokale LaTeX-Distribution
+- **Perl**  
+  Wird für bestimmte automatische LaTeX-Skripte benötigt.
+- Literaturverwaltung: **Citavi** (oder alternativ: Zotero)  
+  Export der Literaturdatenbank als `.bib`-Datei zur Verwendung mit BibTeX.
+
+### 📐 Zusatztools (optional, aber empfohlen)
+- **Draw.io**  
+  Erstellung von Diagrammen zur späteren Integration als Abbildungen.
+- **Microsoft Excel**
+
+
 ## 📂 Projektstruktur
 
 Die folgende Ordnerstruktur dient als Grundlage für deine wissenschaftliche Arbeit. Die Struktur ist modular aufgebaut und trennt klar zwischen Inhalt, Einstellungen, Abbildungen, Tabellen und Anhängen.
@@ -83,4 +103,3 @@ Die folgende Ordnerstruktur dient als Grundlage für deine wissenschaftliche Arb
 ├── Main.pdf                        ## Generierte PDF-Version der Arbeit (nach dem Kompilieren)
 
 └── Main.tex                        ## Einstiegspunkt zur Kompilierung des gesamten Dokuments
-
