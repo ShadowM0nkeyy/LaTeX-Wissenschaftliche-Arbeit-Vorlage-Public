@@ -1,6 +1,6 @@
 # 📄 LaTeX-Wissenschaftliche-Arbeit-Vorlage-Public
 
-Diese Repository enthält eine einfache und anpassbare LaTeX-Vorlage für wissenschaftliche Arbeiten. Sie eignet sich ideal für Hausarbeiten, Bachelor- oder Masterarbeiten.
+Diese Repository enthält eine einfache und anpassbare LaTeX-Vorlage für wissenschaftliche Arbeiten.
 
 ## ✨ Funktionen
 
